@@ -2,39 +2,75 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Bill Gates Tribute Page</title>
-  <link rel='stylesheet' href='https://fonts.google.com/specimen/Work+Sans?sidebar.open&amp;selection.family=Work+Sans:wght@200;300;400;500;600;700'><link rel="stylesheet" href="./style.css">
+  <title>CodePen - Product Landing Page</title>
+  <link rel='stylesheet' href='https://fonts.google.com/specimen/Jost?preview.text=&amp;preview.text_type=custom&amp;sidebar.open&amp;selection.family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-  
+<!-- partial:index.partial.html -->
 <!DOCTYPE html>
-
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Work Sans: 400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jost: 300,400,500,600,700" rel="stylesheet">
 </head>
 <html>
-  <main id="main">
-    <h1 id="title">Bill Gates Tribute Page</h1>
-    <div id="img-div">
-      <img id="image" src="https://media.wired.com/photos/5e6c06e613205e0008da2461/master/w_2560%2Cc_limit/Biz-billgates-950211062.jpg" alt="Bill Gates">
-      <p id="img-caption">
-        Photo of Bill Gates from a <a href="https://www.wired.com/story/bill-gates-steps-down-microsoft-board/" target="_blank">WIRED</a> article.
-      </p>
-    </div>
-    <div id="tribute-info">
+  <div class="container">
+  <header id="header">
+      
+    <nav id="nav-bar">
       <ul>
-        <li>With his wife Melinda, Bill Gates chairs the Bill & Melinda Gates Foundation, the world's largest private charitable foundation.</li>
-        <li>In May 2020, the Gates Foundation said it would spend $300 million to fight the coronavirus pandemic, funding treatment, detection and vaccines.</li>
-        <li>Gates has sold or given away much of his stake in Microsoft -- he owns just over 1% of shares -- and invested in a mix of stocks and other assets.</li>
-        <li>In mid-March 2020, Gates stepped down as a board member of Microsoft, the software firm he founded with Paul Allen (d. 2018) in 1975.</li>
-        <li>The foundation works to improve global health and to create equal opportunity for people around the globe.</li>
-        <li>To date, Gates has donated $35.8 billion worth of Microsoft stock to the Gates Foundation.</li>
+        <li> <a class="nav-link" href="#treats">Treats</a></li>
+        <li> <a class="nav-link" href="#toys">Toys</a></li>
+        <li> <a class="nav-link" href="#extra">Extras</a></li>
       </ul>
-      <p class="tribute-link">All the information on this page is from this <a id="tribute-link" href="https://www.forbes.com/profile/bill-gates/#49f60975689f" target="_blank">Forbes</a> article.</p>
+    </nav>
+    
+  </header>
+    
+    <h1>Juno's Box</h1>
+    <p class="description">Homemade Dog Treats & Toys from Austin, TX</p>
+    
+    <hr></hr>
+    
+    <p>Give your dog exactly what they want by choosing one of our themed boxes! And don't forget to sign up for our weekly newsletter.</p>
+    
+    <div class=form-group>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      
+        <input id="email" type="email" name="email" placeholder="Enter your email" required/>
+      
+      <input id="submit" type="submit" value="Sign Up"/>
+      
+      </form>
     </div>
-  </main>
+    
+    <img id="header-img" class="image" src="https://images.pexels.com/photos/825949/pexels-photo-825949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="puppy"/>
+    
+    <main>
+      <section id="treats" class="treats">
+        <h2>Treats</h2>
+        <p class="products">Our treats are made with organic non-gmo ingredients! Each treat is hand-made and packed with love.</p>
+      </section>
+      <section id="toys" class="toys">
+        <h2>Toys</h2>
+        <p class="products">All toys are responsibly sourced. We think it's important that all pups have safe and healthy toys.</p>
+      </section>
+      <section id="extra" class="extra">
+        <h2>Extra</h2>
+        <p class="products">We also offer a training program for local dogs in the area! You can find more information about it here.</p>
+      </section>
+    </main>
+    
+    <p class="choose-box">A totally customized box of themed toys and treats for your pup - every month</p>
+   
+    <div>   
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/tCWh0__K0c8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+  <footer>Thank you for visiting our page! The video above was sourced from YouTube for project purposes only. You can visit the the creator Yolis' channel <a href="https://www.youtube.com/channel/UCKD_a7PZsBk5Jp0nYHllCQQ" target="_blank">here.</a></footer>
+  
+</div>
 </html>
-
+<!-- partial -->
+  
 </body>
 </html>
