@@ -1,0 +1,107 @@
+body {
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: underline #09BC8A;
+  color: #234058;
+  margin: 50px 0px 50px 0px;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.75em;
+  text-align: center;
+  color: #234058;
+  margin-top: 60px;
+}
+
+a {
+  color: #09BC8A;
+}
+
+ul {
+  max-width: 1000px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #346083;
+  line-height: 35px;
+  margin: 70px auto 50px auto;
+}
+
+li {
+  margin: 25px 0px 25px 0px;
+}
+
+.tribute-link {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #346083;
+  margin-bottom: 60px;
+}
+
+/* mobile */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  body {
+    display: block;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  
+  #main {
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin: 0px 10px;
+  }
+  
+  ul {
+    font-size: 1.25em;
+    margin: 0px 10px;
+  }
+}
+
+/* iPads */
+
+@media (max-width: 1025px) {
+  ul {
+    margin: 0px 25px;
+  }
+  
+  li {
+    margin: 25px 50px 25px 50px;
+  }
+  
+  p {
+    margin: 30px 25px 0px 25px;
+  }
+}
